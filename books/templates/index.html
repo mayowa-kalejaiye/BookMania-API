@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>{% block head %} {% endblock %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="{% static 'css/styles.css' %}" rel="stylesheet">
+
+<title>{% block title %}Bloop{% endblock %}</title>
+
+</head>
+<body>
+
+    {% block content %}
+      <div class="header"> 
+        <h1 style="margin-right: 1100px;">Name</h1>
+        <hr>
+      </div>
+      {% for post in posts %}
+        <div class="title">
+          <h2><a href="{{ post.get_absolute_url }}"> {{ post.title }} </a></h2>
+        </div>
+      {% endfor %}
+    {% endblock %}
+    <div id="sidebar">
+      <h2 class="h2" style="margin-bottom: -60px;"> Name </h2>
+      <p class="h2"> Coming soon </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+{% block title %} Bloop {% endblock %}
+
+{% block head %} {% endblock %}
+<div class="header">
+    <h2>Blog Name</h2>
+  </div>
+
+<h1>Stories</h1>
+{% for post in posts %}
+    <h2>
+        <a href="{{ post.get_absolute_url}}"> 
+            {{ post.title }} 
+        </a>
+    </h2>
+    
+    <p> 
+        Published {{ post.publish }} by {{ post.author }} 
+    </p>
+    <h3>
+        ~{{ post.body|truncatewords:30|linebreaks }}
+    </h3>
+{% endfor %}

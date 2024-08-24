@@ -1,0 +1,39 @@
+{% extends "index.html" %}
+{% block title %}Bloop{% endblock %}
+{% block head %}{{ post.title }}{% endblock %}
+<div class="row">
+    {% block content %}
+    {% for post in posts %}
+    <div class="leftcolumn">
+        <div class="card">
+            <h2 class='title'>{{ post.title }}</h2>
+            <h5>@{{ post.author }}, {{ post.publish }}</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>{{ post.slug }}</p>
+            <p>{{ post.body|truncatewords:30|linebreaks }}</p>
+        </div>
+    </div>
+    {% endfor %}
+    {% endblock %}
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
