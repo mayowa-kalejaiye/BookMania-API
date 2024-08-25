@@ -14,7 +14,7 @@ class Book(models.Model):
             ('pg', 'PG'),
             ('pg13', 'PG13'),
             ('17', '17'),
-            ('18+', '18+')
+            ('18+', '18+'),
         )
     title = models.CharField(max_length=100)
     slug = models.SlugField(max_length=250, unique_for_date='published_date', default="")
