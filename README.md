@@ -14,15 +14,16 @@ Permission is hereby granted to any person obtaining a copy of this software and
 
 3. **No Derivatives**: You may not alter, transform, or build upon this software without prior written permission from the author.
 
-4. **Contact Requirement**: You must contact Kalejaiye Oluwamayowa Samuel (contact information below) to obtain permission before using, modifying, or distributing this software.
+4. **Contact Requirement**: You must contact Kalejaiye Oluwamayowa Samuel (kalejaiyemayowa3@gmail.com, +2349153818344) to obtain permission before using, modifying, or distributing this software.
 
 5. **Legal Action**: Unauthorized use of this software, or failure to credit the author as stipulated, will result in legal action.
 
 ### Contact Information
-*Email*: [your-email@example.com]  
-*Phone*: [your-phone-number]
+*Email*: [kalejaiyemayowa3@gmail.com]  
+*Phone*: [+2349153818344]
 
 ---
 
 For more information about this project, please refer to the documentation or contact the author.
+
 
