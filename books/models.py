@@ -45,4 +45,3 @@ class Book(models.Model):
                              self.published_date.day,
                              self.slug])
     
-    

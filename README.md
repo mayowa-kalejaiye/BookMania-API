@@ -1,25 +1,28 @@
-# BookMania-API
-A CRUD API for managing book information using Django and Django REST Framework
+# BookMania API
 
-MIT License
+## License
 
-Copyright (c) 2024 Kalejaiye Oluwamayowa Samuel
+### Customized License Agreement
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**Copyright (c) 2024 Kalejaiye Oluwamayowa Samuel**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software"), to use the Software for personal and non-commercial purposes, subject to the following conditions:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. **Attribution**: Credit must be given to the original author, Kalejaiye Oluwamayowa Samuel, in any use of this software.
+   
+2. **Non-Commercial Use**: The software may not be used for commercial purposes without prior written permission from the author.
+
+3. **No Derivatives**: You may not alter, transform, or build upon this software without prior written permission from the author.
+
+4. **Contact Requirement**: You must contact Kalejaiye Oluwamayowa Samuel (contact information below) to obtain permission before using, modifying, or distributing this software.
+
+5. **Legal Action**: Unauthorized use of this software, or failure to credit the author as stipulated, will result in legal action.
+
+### Contact Information
+*Email*: [your-email@example.com]  
+*Phone*: [your-phone-number]
+
+---
+
+For more information about this project, please refer to the documentation or contact the author.
 
