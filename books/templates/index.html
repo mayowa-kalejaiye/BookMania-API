@@ -3,7 +3,7 @@
 <html lang="en">
 <head>{% block head %} {% endblock %}
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="{% static 'css/styles.css' %}" rel="stylesheet">
+{% comment %} <link href="{% static 'css/styles.css' %}" rel="stylesheet"> {% endcomment %}
 
 <title>{% block title %}Bloop{% endblock %}</title>
 
@@ -12,12 +12,12 @@
 
     {% block content %}
       <div class="header"> 
-        <h1 style="margin-right: 1100px;">Name</h1>
+        <h1 style="margin-right: 1100px;">Name:</h1>
         <hr>
       </div>
-      {% for post in posts %}
+      {% for books in queryset %}
         <div class="title">
-          <h2><a href="{{ post.get_absolute_url }}"> {{ post.title }} </a></h2>
+          <h2><a href="{{ queryset.title }}"> {{ post.title }} </a></h2>
         </div>
       {% endfor %}
     {% endblock %}
